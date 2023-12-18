@@ -1,0 +1,620 @@
+#--------------- PPM ---------------
+
+#load small_4x3.ppm and call it 'small'
+load small_4x3.ppm small
+
+#blur small
+blur small small-blur
+
+#save small-blur
+save small-blur.ppm small-blur
+
+#sharpen small
+sharpen small small-sharpen
+
+#save small-sharpen
+save small-sharpen.ppm small-sharpen
+
+#sepia small
+sepia small small-sepia
+
+#save small-sepia
+save small-sepia.ppm small-sepia
+
+#greyscale small
+greyscale small small-greyscale
+
+#save small-greyscale
+save small-greyscale.ppm small-greyscale
+
+#split the small rgb
+rgb-split small small-red small-green small-blue
+
+#save the red, green, and blue components
+save small-red.ppm small-red
+save small-green.ppm small-green
+save small-blue.ppm small-blue
+
+#combine them back
+rgb-combine rgb-small-combine small-red small-green small-blue
+
+#save combined rgb
+save small-combine.ppm rgb-small-combine
+
+#red-component of image
+red-component small small-red-component
+
+#save red-component
+save small-red-component.ppm small-red-component
+
+#green-component of image
+green-component small small-green-component
+
+#save green-component
+save small-green-component.ppm small-green-component
+
+#blue-component of image
+blue-component small small-blue-component
+
+#save blue-component
+save small-blue-component.ppm small-blue-component
+
+#flip small horizontally
+horizontal-flip small small-horizontal
+
+#save small-horizontal
+save small-horizontal.ppm small-horizontal
+
+#flip small-vertical
+vertical-flip small small-vertical
+
+#save small-vertical
+save small-vertical.ppm small-vertical
+
+#brighten small by adding 10
+brighten 10 small small-brighten
+
+#save small-brighten by adding 10
+save small-brighten.ppm small-brighten
+
+#darken small by reducing 10
+darken 10 small small-darken
+
+#save small-darken
+save small-darken.ppm small-darken
+
+#value small
+value-component small small-value
+
+#save small-value
+save small-value.ppm small-value
+
+#luma small
+luma small small-luma
+
+#save small-luma
+save small-luma.ppm small-luma
+
+#intensity small
+intensity small small-intensity
+
+#save small-intensity
+save small-intensity.ppm small-intensity
+
+#flip the vertically flipped small horizontally
+horizontal-flip small-vertical small-vertical-horizontal
+
+#save the vertically flipped small horizontally
+save small-vertical-horizontal.ppm small-vertical-horizontal
+
+#histogram small
+histogram small small-histogram
+
+#save histogram
+save small-histogram.ppm small-histogram
+
+#color-correct small
+color-correct small small_color-correct
+
+#save color-correct
+save small_color-correct.ppm small_color-correct
+
+#histogram color-correct-small
+histogram small_color-correct small_color-correct-histogram
+
+#save color-correct-histogram
+save small_color-correct-histogram.ppm small_color-correct-histogram
+
+#levels-adjust small by b = 20, m = 100, w = 255
+levels-adjust 20 100 255 small small_levels-adjust-20
+
+#save levels-adjust-20
+save small_levels-adjust-20.ppm small_levels-adjust-20
+
+#histogram levels-adjust-small-20
+histogram small_levels-adjust-20 small_levels-adjust-histogram-20
+
+#save levels-adjust-histogram-20
+save small_levels-adjust-histogram-20.ppm small_levels-adjust-histogram-20
+
+#levels-adjust small by b = 10, m = 150, w = 200
+levels-adjust 10 150 200 small small_levels-adjust-10
+
+#save levels-adjust-10
+save small_levels-adjust-10.ppm small_levels-adjust-10
+
+#histogram levels-adjust-small-10
+histogram small_levels-adjust-10 small_levels-adjust-histogram-10
+
+#save levels-adjust-histogram
+save small_levels-adjust-histogram-10.ppm small_levels-adjust-histogram-10
+
+#compress small 40 percent
+compress 40 small small-compress-40
+
+#save small-compress-40
+save small-compress-40.ppm small-compress-40
+
+#compress small 70 percent
+compress 70 small small-compress-70
+
+#save small-compress-70
+save small-compress-70.ppm small-compress-70
+
+#blur small split
+blur small small-blur-split 50
+
+#save small-blur-split
+save small-blur-split.ppm small-blur-split
+
+#sharpen small split
+sharpen small small-sharpen-split 50
+
+#save small-sharpen-split
+save small-sharpen-split.ppm small-sharpen-split
+
+#sepia small split
+sepia small small-sepia-split 50
+
+#save small-sepia-split
+save small-sepia-split.ppm small-sepia-split
+
+#greyscale small split
+greyscale small small-greyscale-split 50
+
+#save small-greyscale-split
+save small-greyscale-split.ppm small-greyscale-split
+
+#color-correct small split
+color-correct small small_color-correct-split 50
+
+#save small_color-correct-split
+save small_color-correct-split.ppm small_color-correct-split
+
+#levels-adjust small by b = 20, m = 100, w = 255 split
+levels-adjust 20 100 255 small small_levels-adjust-split-20 50
+
+#save levels-adjust-split-20
+save small_levels-adjust-split-20.ppm small_levels-adjust-split-20
+
+#levels-adjust small by b = 10, m = 150, w = 200 split
+levels-adjust 10 150 200 small small_levels-adjust-split-10 50
+
+#save levels-adjust-split-10
+save small_levels-adjust-split-10.ppm small_levels-adjust-split-10
+
+
+#------------- PNG ----------------
+
+# Load manhattan-small.png and call it 'manhattan-small'
+load manhattan-small.png manhattan-small
+
+# Blur manhattan-small
+blur manhattan-small manhattan-small-blur
+
+# Save manhattan-small-blur
+save manhattan-small-blur.png manhattan-small-blur
+
+# Sharpen manhattan-small
+sharpen manhattan-small manhattan-small-sharpen
+
+# Save manhattan-small-sharpen
+save manhattan-small-sharpen.png manhattan-small-sharpen
+
+# Sepia manhattan-small
+sepia manhattan-small manhattan-small-sepia
+
+# Save manhattan-small-sepia
+save manhattan-small-sepia.png manhattan-small-sepia
+
+# Greyscale manhattan-small
+greyscale manhattan-small manhattan-small-greyscale
+
+# Save manhattan-small-greyscale
+save manhattan-small-greyscale.png manhattan-small-greyscale
+
+# Split the manhattan-small RGB
+rgb-split manhattan-small manhattan-small-red manhattan-small-green manhattan-small-blue
+
+# Save the red, green, and blue components
+save manhattan-small-red.png manhattan-small-red
+save manhattan-small-green.png manhattan-small-green
+save manhattan-small-blue.png manhattan-small-blue
+
+# Combine them back
+rgb-combine rgb-manhattan-small-combine manhattan-small-red manhattan-small-green manhattan-small-blue
+
+# Save combined RGB
+save manhattan-small-combine.png rgb-manhattan-small-combine
+
+# Red-component of image
+red-component manhattan-small manhattan-small-red-component
+
+# Save red-component
+save manhattan-small-red-component.png manhattan-small-red-component
+
+# Green-component of image
+green-component manhattan-small manhattan-small-green-component
+
+# Save green-component
+save manhattan-small-green-component.png manhattan-small-green-component
+
+# Blue-component of image
+blue-component manhattan-small manhattan-small-blue-component
+
+# Save blue-component
+save manhattan-small-blue-component.png manhattan-small-blue-component
+
+# Flip manhattan-small horizontally
+horizontal-flip manhattan-small manhattan-small-horizontal
+
+# Save manhattan-small-horizontal
+save manhattan-small-horizontal.png manhattan-small-horizontal
+
+# Flip manhattan-small vertically
+vertical-flip manhattan-small manhattan-small-vertical
+
+# Save manhattan-small-vertical
+save manhattan-small-vertical.png manhattan-small-vertical
+
+# Brighten manhattan-small by adding 10
+brighten 10 manhattan-small manhattan-small-brighten
+
+# Save manhattan-small-brighten by adding 10
+save manhattan-small-brighten.png manhattan-small-brighten
+
+# Darken manhattan-small by reducing 10
+darken 10 manhattan-small manhattan-small-darken
+
+# Save manhattan-small-darken
+save manhattan-small-darken.png manhattan-small-darken
+
+# Value-component of manhattan-small
+value-component manhattan-small manhattan-small-value
+
+# Save manhattan-small-value
+save manhattan-small-value.png manhattan-small-value
+
+# Luma of manhattan-small
+luma manhattan-small manhattan-small-luma
+
+# Save manhattan-small-luma
+save manhattan-small-luma.png manhattan-small-luma
+
+# Intensity of manhattan-small
+intensity manhattan-small manhattan-small-intensity
+
+# Save manhattan-small-intensity
+save manhattan-small-intensity.png manhattan-small-intensity
+
+# Flip the vertically flipped manhattan-small horizontally
+horizontal-flip manhattan-small-vertical manhattan-small-vertical-horizontal
+
+# Save the vertically flipped manhattan-small horizontally
+save manhattan-small-vertical-horizontal.png manhattan-small-vertical-horizontal
+
+# Histogram of manhattan-small
+histogram manhattan-small manhattan-small-histogram
+
+# Save histogram
+save manhattan-small-histogram.png manhattan-small-histogram
+
+# Color-correct manhattan-small
+color-correct manhattan-small manhattan-small_color-correct
+
+# Save color-correct
+save manhattan-small_color-correct.png manhattan-small_color-correct
+
+# Histogram of color-correct-manhattan-small
+histogram manhattan-small_color-correct manhattan-small_color-correct-histogram
+
+# Save color-correct-histogram
+save manhattan-small_color-correct-histogram.png manhattan-small_color-correct-histogram
+
+# Levels-adjust manhattan-small by b = 20, m = 100, w = 255
+levels-adjust 20 100 255 manhattan-small manhattan-small_levels-adjust-20
+
+# Save levels-adjust-20
+save manhattan-small_levels-adjust-20.png manhattan-small_levels-adjust-20
+
+# Histogram of levels-adjust-manhattan-small-20
+histogram manhattan-small_levels-adjust-20 manhattan-small_levels-adjust-histogram-20
+
+# Save levels-adjust-histogram
+save manhattan-small_levels-adjust-histogram-20.png manhattan-small_levels-adjust-histogram-20
+
+# Levels-adjust manhattan-small by b = 10, m = 150, w = 200
+levels-adjust 10 150 200 manhattan-small manhattan-small_levels-adjust-10
+
+# Save levels-adjust-10
+save manhattan-small_levels-adjust-10.png manhattan-small_levels-adjust-10
+
+# Histogram of levels-adjust-manhattan-small-10
+histogram manhattan-small_levels-adjust-10 manhattan-small_levels-adjust-histogram-10
+
+# Save levels-adjust-histogram
+save manhattan-small_levels-adjust-histogram-10.png manhattan-small_levels-adjust-histogram-10
+
+# Compress manhattan-small 40 percent
+compress 40 manhattan-small manhattan-small-compress-40
+
+# Save manhattan-small-compress 40 percent
+save manhattan-small-compress-40.png manhattan-small-compress-40
+
+# Compress manhattan-small 70 percent
+compress 70 manhattan-small manhattan-small-compress-70
+
+# Save manhattan-small-compress 70 percent
+save manhattan-small-compress-70.png manhattan-small-compress-70
+
+# Blur manhattan-small split
+blur manhattan-small manhattan-small-blur-split 50
+
+# Save manhattan-small-blur-split
+save manhattan-small-blur-split.png manhattan-small-blur-split
+
+# Sharpen manhattan-small split
+sharpen manhattan-small manhattan-small-sharpen-split 50
+
+# Save manhattan-small-sharpen-split
+save manhattan-small-sharpen-split.png manhattan-small-sharpen-split
+
+# Sepia manhattan-small split
+sepia manhattan-small manhattan-small-sepia-split 50
+
+# Save manhattan-small-sepia-split
+save manhattan-small-sepia-split.png manhattan-small-sepia-split
+
+# Greyscale manhattan-small split
+greyscale manhattan-small manhattan-small-greyscale-split 50
+
+# Save manhattan-small-greyscale-split
+save manhattan-small-greyscale-split.png manhattan-small-greyscale-split
+
+# Color-correct manhattan-small split
+color-correct manhattan-small manhattan-small_color-correct-split 50
+
+# Save manhattan-small_color-correct-split
+save manhattan-small_color-correct-split.png manhattan-small_color-correct-split
+
+# Levels-adjust manhattan-small by b = 20, m = 100, w = 255 split
+levels-adjust 20 100 255 manhattan-small manhattan-small_levels-adjust-split-20 50
+
+# Save levels-adjust-20
+save manhattan-small_levels-adjust-split-20.png manhattan-small_levels-adjust-split-20
+
+# Levels-adjust manhattan-small by b = 10, m = 150, w = 200 split
+levels-adjust 10 150 200 manhattan-small manhattan-small_levels-adjust-split-10 50
+
+# Save levels-adjust-10
+save manhattan-small_levels-adjust-split-10.png manhattan-small_levels-adjust-split-10
+
+
+#------------- JPG ----------------
+
+
+# Load galaxy.jpg and call it 'galaxy'
+load galaxy.jpg galaxy
+
+# Blur galaxy
+blur galaxy galaxy-blur
+
+# Save galaxy-blur
+save galaxy-blur.jpg galaxy-blur
+
+# Sharpen galaxy
+sharpen galaxy galaxy-sharpen
+
+# Save galaxy-sharpen
+save galaxy-sharpen.jpg galaxy-sharpen
+
+# Sepia galaxy
+sepia galaxy galaxy-sepia
+
+# Save galaxy-sepia
+save galaxy-sepia.jpg galaxy-sepia
+
+# Greyscale galaxy
+greyscale galaxy galaxy-greyscale
+
+# Save galaxy-greyscale
+save galaxy-greyscale.jpg galaxy-greyscale
+
+# Split the galaxy RGB
+rgb-split galaxy galaxy-red galaxy-green galaxy-blue
+
+# Save the red, green, and blue components
+save galaxy-red.jpg galaxy-red
+save galaxy-green.jpg galaxy-green
+save galaxy-blue.jpg galaxy-blue
+
+# Combine them back
+rgb-combine rgb-galaxy-combine galaxy-red galaxy-green galaxy-blue
+
+# Save combined RGB
+save galaxy-combine.jpg rgb-galaxy-combine
+
+# Red-component of image
+red-component galaxy galaxy-red-component
+
+# Save red-component
+save galaxy-red-component.jpg galaxy-red-component
+
+# Green-component of image
+green-component galaxy galaxy-green-component
+
+# Save green-component
+save galaxy-green-component.jpg galaxy-green-component
+
+# Blue-component of image
+blue-component galaxy galaxy-blue-component
+
+# Save blue-component
+save galaxy-blue-component.jpg galaxy-blue-component
+
+# Flip galaxy horizontally
+horizontal-flip galaxy galaxy-horizontal
+
+# Save galaxy-horizontal
+save galaxy-horizontal.jpg galaxy-horizontal
+
+# Flip galaxy vertically
+vertical-flip galaxy galaxy-vertical
+
+# Save galaxy-vertical
+save galaxy-vertical.jpg galaxy-vertical
+
+# Brighten galaxy by adding 10
+brighten 10 galaxy galaxy-brighten
+
+# Save galaxy-brighten by adding 10
+save galaxy-brighten.jpg galaxy-brighten
+
+# Darken galaxy by reducing 10
+darken 10 galaxy galaxy-darken
+
+# Save galaxy-darken
+save galaxy-darken.jpg galaxy-darken
+
+# Value-component of galaxy
+value-component galaxy galaxy-value
+
+# Save galaxy-value
+save galaxy-value.jpg galaxy-value
+
+# Luma of galaxy
+luma galaxy galaxy-luma
+
+# Save galaxy-luma
+save galaxy-luma.jpg galaxy-luma
+
+# Intensity of galaxy
+intensity galaxy galaxy-intensity
+
+# Save galaxy-intensity
+save galaxy-intensity.jpg galaxy-intensity
+
+# Flip the vertically flipped galaxy horizontally
+horizontal-flip galaxy-vertical galaxy-vertical-horizontal
+
+# Save the vertically flipped galaxy horizontally
+save galaxy-vertical-horizontal.jpg galaxy-vertical-horizontal
+
+# Histogram of galaxy
+histogram galaxy galaxy-histogram
+
+# Save histogram
+save galaxy-histogram.jpg galaxy-histogram
+
+# Color-correct galaxy
+color-correct galaxy galaxy_color-correct
+
+# Save color-correct
+save galaxy_color-correct.jpg galaxy_color-correct
+
+# Histogram of color-correct-galaxy
+histogram galaxy_color-correct galaxy_color-correct-histogram
+
+# Save color-correct-histogram
+save galaxy_color-correct-histogram.jpg galaxy_color-correct-histogram
+
+# Levels-adjust galaxy by b = 20, m = 100, w = 255
+levels-adjust 20 100 255 galaxy galaxy_levels-adjust-20
+
+# Save levels-adjust-20
+save galaxy_levels-adjust-20.jpg galaxy_levels-adjust-20
+
+# Histogram of levels-adjust-galaxy-20
+histogram galaxy_levels-adjust-20 galaxy_levels-adjust-histogram-20
+
+# Save levels-adjust-histogram-20
+save galaxy_levels-adjust-histogram-20.jpg galaxy_levels-adjust-histogram-20
+
+# Levels-adjust galaxy by b = 10, m = 150, w = 200
+levels-adjust 10 150 200 galaxy galaxy_levels-adjust-10
+
+# Save levels-adjust-10
+save galaxy_levels-adjust-10.jpg galaxy_levels-adjust-10
+
+# Histogram of levels-adjust-galaxy-10
+histogram galaxy_levels-adjust-10 galaxy_levels-adjust-histogram-10
+
+# Save levels-adjust-histogram-10
+save galaxy_levels-adjust-histogram-10.jpg galaxy_levels-adjust-histogram-10
+
+# Compress galaxy 40 percent
+compress 40 galaxy galaxy-compress-40
+
+# Save galaxy-compress 40 percent
+save galaxy-compress-40.jpg galaxy-compress-40
+
+# Compress galaxy 70 percent
+compress 70 galaxy galaxy-compress-70
+
+# Save galaxy-compress 70 percent
+save galaxy-compress-70.jpg galaxy-compress-70
+
+# Blur galaxy split
+blur galaxy galaxy-blur-split 50
+
+# Save galaxy-blur-split
+save galaxy-blur-split.jpg galaxy-blur-split
+
+# Sharpen galaxy split
+sharpen galaxy galaxy-sharpen-split 50
+
+# Save galaxy-sharpen-split
+save galaxy-sharpen-split.jpg galaxy-sharpen-split
+
+# Sepia galaxy split
+sepia galaxy galaxy-sepia-split 50
+
+# Save galaxy-sepia-split
+save galaxy-sepia-split.jpg galaxy-sepia-split
+
+# Greyscale galaxy split
+greyscale galaxy galaxy-greyscale-split 50
+
+# Save galaxy-greyscale-split
+save galaxy-greyscale-split.jpg galaxy-greyscale-split
+
+# Color-correct galaxy split
+color-correct galaxy galaxy_color-correct-split 50
+
+# Save galaxy_color-correct-split
+save galaxy_color-correct-split.jpg galaxy_color-correct-split
+
+# Levels-adjust galaxy by b = 20, m = 100, w = 255 split
+levels-adjust 20 100 255 galaxy galaxy_levels-adjust-split-20 50
+
+# Save levels-adjust-20
+save galaxy_levels-adjust-split-20.jpg galaxy_levels-adjust-split-20
+
+# Levels-adjust galaxy by b = 10, m = 150, w = 200 split
+levels-adjust 10 150 200 galaxy galaxy_levels-adjust-split-10 50
+
+# Save levels-adjust
+save galaxy_levels-adjust-split-10.jpg galaxy_levels-adjust-split-10
+
+# exit the program
+exit
