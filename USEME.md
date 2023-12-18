@@ -182,6 +182,8 @@ processing application. Each command is detailed with examples and specific cond
 - Click on the "Save" button to save the image.
 - Navigate to the folder where the image should be saved and click "Save".
 
+### Pre-requisites
+- Java 8 or higher
 
 ### Notes
 
