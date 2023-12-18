@@ -76,7 +76,6 @@
       <change afterPath="$PROJECT_DIR$/../../Projects/Lab_1b/Lab_2.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Projects/Projects.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../test_GPU.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/USEME.md" beforeDir="false" afterPath="$PROJECT_DIR$/USEME.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "vandit",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vanditgupta/Northeastern/PDP/Assignments/ImageEditorV",
     "node.js.detected.package.eslint": "true",
@@ -127,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702882891336</updated>
-      <workItem from="1702882892406" duration="2022000" />
+      <workItem from="1702882892406" duration="2889000" />
     </task>
     <servers />
   </component>
