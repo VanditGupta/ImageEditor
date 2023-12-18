@@ -170,13 +170,13 @@ testing the Controller and the view.
    assignment 4 to 5 changes. Added appropriate citations for the images used in the readme. Logic
    for split kernelFilter and LinearFilter was fixed. 
 
-# Assignment 7 - Dither Implementation 
-## (Implemented by Dhruv Saini and Mumuksha Pant)
-### We were able to implement the dither correctly similar to assignment's requirement.
-### Implemented the GUI feature for Dither along with support for split preview.
-### script command - dither <src_image> <dest_image> <split_percentage>
-### res/diya_dither.jpg is an image having dither that we have implemented
-steps :
+## Assignment 7 - Dither Implementation 
+#### (Implemented by [Dhruv Saini](https://www.linkedin.com/in/saini-dhruv/) and [Mumuksha Pant](https://www.linkedin.com/in/mumuksha-pant/))
+ We were able to implement the dither correctly similar to assignment's requirement.
+ Implemented the GUI feature for Dither along with support for split preview.
+ script command - dither <src_image> <dest_image> <split_percentage>
+ res/diya_dither.jpg is an image having dither that we have implemented
+ steps :
 
 1. First we have to understand the complete flow of the application, how the validations for the commands are working,
    how the MVC is configured, How the flow starts from controller, etc.
