@@ -211,6 +211,47 @@ the model and view.
 For more details on the implementation and usage of these components, please refer to the source
 code and documentation provided with the project.
 
+## Screenshots
+
+- Sepia Preview Operation
+  ![Sepia Preview](ImageEditorFeatures/sepia-preview.jpg)
+
+
+- Color Correct Operation
+  ![Color Correct](ImageEditorFeatures/color-correct.jpg)
+
+
+- Greyscale Operation
+  ![Greyscale](ImageEditorFeatures/greysclale-preview.jpg)
+
+
+- Adjust Levels Operation
+  ![Greyscale](ImageEditorFeatures/adjust-levels.jpg)
+
+
+- Horizontal Flip, Vertical Flip
+- ![Horizontal](ImageEditorFeatures/horizontal-flip.jpg)
+  ![Vertical](ImageEditorFeatures/vertical-flip.jpg)
+
+
+- Color Components
+  ![Red](ImageEditorFeatures/red.jpg)
+  ![Green](ImageEditorFeatures/green.jpg)
+  ![Blue](ImageEditorFeatures/blue.jpg)
+
+
+- Blur, Sharpen
+  ![Blur](ImageEditorFeatures/blur.jpg)
+  ![Sharpen](ImageEditorFeatures/sharpen.jpg)
+
+
+- Compress
+  ![Compress](ImageEditorFeatures/compress.jpg)
+
+
+- Dither
+  ![Dither](ImageEditorFeatures/dither.jpg)
+
 ## License
 
 1. Small_4x3.ppm. Self generated image using GIMP 
