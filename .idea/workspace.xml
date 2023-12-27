@@ -5,77 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="834339c3-8982-4b85-b4aa-76a56f19fe47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../.idea/Northeastern.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Image_Processing_Engine/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Image_Processing_Engine/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Image_Processing_Engine/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Image_Processing_Engine/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Image_Processing_Engine/Image_Processing_Engine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Matrices/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Matrices/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Matrices/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Matrices/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Matrices/Matrices.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Matrices/src/mat/ArrayMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Matrices/src/mat/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Matrices/src/mat/SparseMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Matrices/src/mat/SquareMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Matrices/test/ArrayMatrixTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-3/Matrices/test/SparseMatrixTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-5/Histogram Code/src/model/imagecompressor/ImageCompressorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment-5/Histogram Code/useme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 1/Lab 1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 4/Lab4/Lab4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 6/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 6/.idea/libraries/code.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 6/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 6/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 6/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 6/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 6/Lab 6.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 6/code/src/solution/BSTElementNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 6/code/src/solution/BSTEmptyNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 6/code/src/solution/BSTNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 6/code/src/solution/NothingThereException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 6/code/test/BSTNodeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 7/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 7/.idea/libraries/code.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 7/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 7/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 7/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 7/Archive.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 7/Lab 7.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lab 7/src/listadt/listadt.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/Categorical Data Types/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/Categorical Data Types/.idea/libraries/code.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/Categorical Data Types/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/Categorical Data Types/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/Categorical Data Types/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/Categorical Data Types/Categorical Data Types.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/Categorical Data Types/code/AbstractShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/Categorical Data Types/code/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/Categorical Data Types/code/Point2D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/Categorical Data Types/code/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/Categorical Data Types/code/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/Categorical Data Types/code/ShapeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/Categorical Data Types/code/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/Categorical Data Types/code/code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/The Essence of Objects/code/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/The Essence of Objects/code/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/The Essence of Objects/code/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/The Essence of Objects/code/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/The Essence of Objects/code/code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Lectures/The Essence of Objects/code/out/production/code/code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects/Assignment-1/Assignment-1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects/Assignment-1/src/box/BoxSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects/Assignment-1/src/box/SetOfRectangles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects/Assignment-1/src/box/SimpleBoxSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects/Assignment-1/test/box/SimpleBoxSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects/Lab_1a/Lab_1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects/Lab_1b copy/Lab_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects/Lab_1b/Lab_2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Projects/Projects.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../test_GPU.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,9 +30,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "vandit",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/vanditgupta/Northeastern/PDP/Assignments/ImageEditorV",
+    "last_opened_file_path": "/Users/vanditgupta/Northeastern/Fall 2023/PDP/Assignments/ImageEditorV",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -126,7 +56,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702882891336</updated>
-      <workItem from="1702882892406" duration="2889000" />
+      <workItem from="1702882892406" duration="4224000" />
+      <workItem from="1703704961808" duration="24000" />
     </task>
     <servers />
   </component>
