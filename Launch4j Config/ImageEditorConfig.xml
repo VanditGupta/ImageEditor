@@ -4,14 +4,14 @@
   <headerType>gui</headerType>
   <jar>/Users/vanditgupta/Northeastern/Fall 2023/PDP/Assignments/ImageEditorV/ImageProcessor.jar</jar>
   <outfile>/Users/vanditgupta/Northeastern/Fall 2023/PDP/Assignments/ImageEditorV/ImageEditor.exe</outfile>
-  <errTitle></errTitle>
+  <errTitle>Java Not installed.</errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
   <priority>normal</priority>
-  <downloadUrl></downloadUrl>
-  <supportUrl></supportUrl>
+  <downloadUrl>https://www.java.com/en/download/</downloadUrl>
+  <supportUrl>https://www.java.com/en/download/manual.jsp</supportUrl>
   <stayAlive>false</stayAlive>
-  <restartOnCrash>true</restartOnCrash>
+  <restartOnCrash>false</restartOnCrash>
   <manifest></manifest>
   <icon>/Users/vanditgupta/Northeastern/Fall 2023/PDP/Assignments/ImageEditorV/Icon.ico</icon>
   <classPath>
