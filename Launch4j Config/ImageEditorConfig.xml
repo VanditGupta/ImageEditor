@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>/Users/vanditgupta/Northeastern/Fall 2023/PDP/Assignments/ImageEditorV/ImageProcessor.jar</jar>
+  <outfile>/Users/vanditgupta/Northeastern/Fall 2023/PDP/Assignments/ImageEditorV/ImageEditor.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>true</restartOnCrash>
+  <manifest></manifest>
+  <icon>/Users/vanditgupta/Northeastern/Fall 2023/PDP/Assignments/ImageEditorV/Icon.ico</icon>
+  <classPath>
+    <mainClass>ImageEditor</mainClass>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>
